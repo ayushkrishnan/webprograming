@@ -31,16 +31,54 @@
         <form action=""> <br><br>
             Firstname <input type="text"/> <br><br>
             Middlename <input type="text"/><br><br>
-            Lastname <input type="text"/>
+            Lastname <input type="text"/> <br><br>
 
-            course <input type="">
+            Course <input type="text" placeholder="Course" list="course" textarea=""><br>
+            <datalist id="course">
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+                <option value="M.Tech">M.Tech</option>
+            </datalist>
             <br>
             Gender: <br>
-            <input type="radio" name="gen" value="Male" id="">
-            <input type="radio" name="gen" value="Female" id="">
-            <input type="radio" name="gen" value="Others" id="">
+            <input type="radio" name="gen" value="Male" id="">Male <br>
+            <input type="radio" name="gen" value="Female" id="">Female <br>
+            <input type="radio" name="gen" value="Others" id="">Others <br> <br> 
+            Phone : <input type="tel" name="" id=""/><br><br>
+            Address <br> <input type="text"> <br><br>
+            Email <input type="email"> <br> <br>
+            Password <input type="password"> <br> <br>
+            Re-type password: <input type="password"> <br><br>
+            <input type="button" value="Submit">
 
 
+        </form>
+    </div>
+
+    <br><br><br><hr>
+    <div align="center">
+        <h2>Employee Details</h2>
+        <form action="">
+            Id : <input type="text"><br><br>
+            Name : <input type="text"> <br><br>
+            Gender
+            <input type="radio" value="Male" name="gen">Male
+            <input type="radio" value="female" name="gen">Female <br><br>
+            Designation <input type="text" placeholder="Manager" list="co" textarea=""><br>
+            <datalist id="co">
+                <option value="Manager">Manager</option>
+                <option value="CEO">CEO</option>
+                <option value="Ast. Manager">Ast. Manager</option>
+        
+            </datalist>
+
+            <br><br>
+            Salary : <input type="text"> <br><br>
+
+            <input type="button" value="Submit">
         </form>
     </div>
 
